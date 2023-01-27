@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "visualization_dashboard_backend",
+  "builds": [{ "src": "server.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/server.js" }]
+}
